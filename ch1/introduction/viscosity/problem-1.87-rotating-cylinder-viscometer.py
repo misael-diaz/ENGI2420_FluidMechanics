@@ -113,5 +113,6 @@ TODO:
     [x] Check units from problem statement
     [x] Indicate the units of the viscosity
     [x] Show axes labels (with units)
-    [ ] Show the correlation coefficient for this fit
+    [ ] Show the correlation coefficient for this fit, compare against
+        the computed one (spreadsheet)
 """
