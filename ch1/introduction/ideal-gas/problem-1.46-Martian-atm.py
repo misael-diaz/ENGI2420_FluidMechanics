@@ -69,8 +69,8 @@ rho_Earth = MW * P / (R * T)
 
 ans = (
     f"\n\nProblem 1.46: Martian Atmopheric Density\n"
-    f"density of Mar's atmosphere:   {rho_Mars: {6}.{4}} kg/m^3\n"
-    f"density of Earth's atmosphere: {rho_Earth:{6}.{4}} kg/m^3\n"
-    f"Earth's to Mar's atmosphere density ratio: {rho_Earth/rho_Mars}\n"
+    f"density of Mars' atmosphere:    {rho_Mars:8.4f} kg/m^3\n"
+    f"density of Earth's atmosphere:  {rho_Earth:8.4f} kg/m^3\n"
+    f"Earth to Mars density ratio:    {rho_Earth/rho_Mars:8.4f}\n"
 )
 print(ans)
