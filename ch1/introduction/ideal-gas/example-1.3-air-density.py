@@ -52,7 +52,7 @@ weight,                    lbf
 rho = MW * P / (R * T) * 144
 W   = rho * g/gc * V
 
-ans = (f"Example 1.3:\n"
+ans = (f"\n\nExample 1.3: Density of Compressed Air\n"
        f"density: {rho/gc:{6}.{4}} slug/ft^3 \t ({rho:{5}.{4}} lbm/ft^3)\n"
        f"weight:  {W:{6}.{4}} lbf\n"
 )

@@ -46,7 +46,7 @@ molecular weight of air,    lbm/lbmol
 """
 MW = m *  (R * T) / (P * V * 144)    # from ideal gas law
 
-ans = (f"Problem 1.47:\n"
+ans = (f"\n\nProblem 1.47: Unknown Gas\n"
        f"molecular weight:        {MW:{6}.{4}} lbm/lbmol\n"
        f"identity:                 molecular oxygen, O2\n"
 )
