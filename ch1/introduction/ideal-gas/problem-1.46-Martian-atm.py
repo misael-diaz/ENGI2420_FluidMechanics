@@ -16,6 +16,13 @@ Copyright (c) 2021 Misael Diaz-Maldonado
 This file is released under the GNU General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
+
+
+References:
+[0] B Munson, D Young, T Okiishi, and W Huebsch, Fundamentals of
+    Fluid Mechanics, 8th edition
+[1] R Johansson, Numerical Python: Scientific Computing and Data
+    Science Applications with NumPy, SciPy, and Matplotlib, 2nd edition
 """
 
 
@@ -60,9 +67,10 @@ density of Earth's atmosphere, kg/m^3
 rho_Earth = MW * P / (R * T)
 
 
-ans = (f"Problem 1.46:\n"
-       f"density of Mar's atmosphere:   {rho_Mars: {6}.{4}} kg/m^3\n"
-       f"density of Earth's atmosphere: {rho_Earth:{6}.{4}} kg/m^3\n"
-       f"Earth's to Mar's atmosphere density ratio: {rho_Earth/rho_Mars}\n"
+ans = (
+    f"\n\nProblem 1.46: Martian Atmopheric Density\n"
+    f"density of Mars' atmosphere:    {rho_Mars:8.4f} kg/m^3\n"
+    f"density of Earth's atmosphere:  {rho_Earth:8.4f} kg/m^3\n"
+    f"Earth to Mars density ratio:    {rho_Earth/rho_Mars:8.4f}\n"
 )
 print(ans)

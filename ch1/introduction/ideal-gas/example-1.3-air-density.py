@@ -14,6 +14,13 @@ Copyright (c) 2021 Misael Diaz-Maldonado
 This file is released under the GNU General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
+
+
+References:
+[0] B Munson, D Young, T Okiishi, and W Huebsch, Fundamentals of
+    Fluid Mechanics, 8th edition
+[1] R Johansson, Numerical Python: Scientific Computing and Data
+    Science Applications with NumPy, SciPy, and Matplotlib, 2nd edition
 """
 
 
@@ -45,9 +52,10 @@ weight,                    lbf
 rho = MW * P / (R * T) * 144
 W   = rho * g/gc * V
 
-ans = (f"Example 1.3:\n"
-       f"density: {rho/gc:{6}.{4}} slug/ft^3 \t ({rho:{5}.{4}} lbm/ft^3)\n"
-       f"weight:  {W:{6}.{4}} lbf\n"
+ans = (
+    f"\n\nExample 1.3: Density of Compressed Air\n"
+    f"density:  {rho / gc:6.4f} slug/ft^3 \t ({rho:{5}.{4}} lbm/ft^3)\n"
+    f"weight:   {W:6.4f} lbf\n"
 )
 
 print(ans)
